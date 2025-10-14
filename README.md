@@ -7,4 +7,4 @@ I usually start solving problems in **C#** as my primary language, but since my 
 
 ### 📊 LeetCode Stats
 
-![](https://leetcard.jacoblin.cool/frknarty?theme=dark&font=Karma&ext=activity)
+![](https://leetcard.jacoblin.cool/furkanphlvn?theme=dark&font=Karma&ext=activity)
