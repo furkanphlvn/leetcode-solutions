@@ -14,31 +14,24 @@ public class Solution {
             //nums1 = [1,2,3,0,0,0], nums2 = [2,5,6]
             //i=0, j=0    nums1[i]=1, nums2[j]=2
             if(nums1[i] <= nums2[j]) {
-                result[k] = nums1[i]; 
+                result[k++] = nums1[i++]; 
                 //result[0] = 1
-                i++; //nums1 -> i=1
             }
             else {
-                result[k] = nums2[j];
+                result[k++] = nums2[j++];
                 //result[0] = 2
-                j++; //nums2 -> j=1
             }
-            k++; // result(merged) -> k=1
         }      
         //after loop ends, one array may still have leftovers
 
         while(i < m){
             //if nums1 still has elements left
-            result[k] = nums1[i];
-            i++;
-            k++;
+            result[k++] = nums1[i++];
         }
 
         while(j < n){
             //if nums2 still has elements left
-            result[k] = nums2[j];
-            j++;
-            k++;
+            result[k++] = nums2[j++];
         }
 
         //copy merged array back into nums1
