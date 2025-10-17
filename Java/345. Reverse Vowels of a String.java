@@ -3,8 +3,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 class Solution {
-    private static final Set<Character> vowels = new HashSet<>(
-            Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'));
+    private static final Set<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'));
 
     public String reverseVowels(String s) {
         char[] chars = s.toCharArray();
