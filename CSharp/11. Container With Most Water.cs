@@ -14,13 +14,13 @@ public class Solution
         while (left < right)
         {
             // genişlik
-            int width = right - left;
+            int genislik = right - left;
 
             // yükseklik kısa olan cizgi (suyun ordan taşması ?)
             int h = Math.Min(height[left], height[right]);
 
             // Alan = genişlik * yükseklik
-            int alan = width * h;
+            int alan = genislik * h;
 
             // eğer bu alandaha büüykse maxAlan'ı güncelle
             maxAlan = Math.Max(maxAlan, alan);
